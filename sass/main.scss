@@ -1,3 +1,106 @@
 body{
     background-color: white;
 }
+header{
+   .container-fluid{
+        height: 156px;
+   }
+   p{
+    color: #3B89B2;
+   }
+}
+footer{ 
+   
+}
+.logo{
+    padding-top: 36px;
+    padding-left: 96px;
+    svg{
+       width: 200px;
+    }
+}
+.topmenu{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    flex-wrap: nowrap;
+    justify-content: flex-end; 
+}
+.search{
+    display: flex;
+    form{
+        height: 40px;
+        margin-top: 1em;
+    }
+    button{
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 0%;
+        position: relative;
+        left: -40px;
+        top: -3px;
+
+        svg{
+          
+        }
+    }
+    input{
+        border: #5FD2E6 solid 1px;
+        border-radius: 15px;
+        padding:  5px 15px 5px 15px;
+        height: 40px;
+        width: 320px;
+        
+    }
+    input::placeholder{
+        color: #3B89B2;
+    }
+}
+.contact{
+    display: flex;
+    margin-top: 2em;
+    margin-right: 2em;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    p{
+        margin: 0px;
+        padding-right: 10px;
+
+    }
+    svg{
+
+    }
+}
+.shoppingcart{
+    display: flex;
+    background-color: #3B89B2;
+    height: 60px;
+    width: 164px;
+    border-bottom-left-radius: 30px;
+    svg{
+    margin-left: 2em;
+    margin-top: 10px;
+    }
+}
+
+.menu{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 1.5em;
+    ul{
+        li{
+            padding-left: 2em;
+            padding-right: 3em;
+            list-style-type: none;
+            font-size: 20px;
+            a{
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
