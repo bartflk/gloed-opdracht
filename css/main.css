@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  max-width: 100vw;
 }
 
 header .container-fluid {
@@ -92,6 +93,104 @@ header p {
 .menu ul li a {
   color: black;
   text-decoration: none;
+}
+
+.hero {
+  height: 60vh;
+}
+.hero img {
+  width: 100%;
+}
+.hero #opacitysvg {
+  opacity: 0.9;
+}
+.hero svg {
+  position: relative;
+  top: -80px;
+}
+.hero .overlay {
+  position: absolute;
+  height: fit-content;
+  width: 100%;
+}
+.hero .overlay .overlaytext {
+  padding-top: 10em;
+  padding-left: 5em;
+  color: white;
+}
+.hero .overlay .overlaytext h1 {
+  font-size: 75px;
+}
+.hero .overlay .overlaytext h2 {
+  font-size: 35px;
+}
+.hero .imagecontainer {
+  height: fit-content;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.introtext h2 {
+  color: black;
+}
+.introtext p {
+  color: black;
+}
+
+.itemcard {
+  border-radius: 0 0 30px 0;
+  margin-top: 2em;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1647058824);
+  margin-bottom: 2em;
+}
+.itemcard .priceoverlay {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgb(28, 12, 76) 100%);
+  position: relative;
+  top: -50px;
+  z-index: 1;
+  height: 50px;
+}
+.itemcard .productdesc {
+  padding: 0em 2em 0em 2em;
+}
+.itemcard .productdesc h4 {
+  font-size: 19px;
+  font-weight: lighter;
+  color: #1D0D4C;
+}
+.itemcard .productdesc p {
+  font-size: 15px;
+}
+.itemcard .item {
+  width: auto;
+  position: relative;
+}
+.itemcard img {
+  height: 235px;
+  width: 100%;
+  display: block;
+}
+.itemcard .price {
+  top: 0px;
+  color: white;
+  padding-left: 1em;
+}
+.itemcard .price #pricesvg {
+  opacity: 0.2;
+}
+.itemcard .itembutton {
+  display: flex;
+  justify-content: flex-end;
+}
+.itemcard .itembutton button {
+  border: none;
+  background-color: #1C0C4C;
+  padding: 0.65em 1em;
+  border-radius: 30px 0px;
+  color: white;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
