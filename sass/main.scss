@@ -14,7 +14,15 @@ header{
    }
 }
 footer{ 
-   
+    .footerlogo{
+        svg{
+            width: 100%;
+        }
+    }
+    .footeritems{
+        display: flex;
+        flex-direction: column;
+    }
 }
 .logo{
     padding-top: 36px;
