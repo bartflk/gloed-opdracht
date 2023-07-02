@@ -25,6 +25,8 @@ header .navbar .navbar-toggler {
   background-color: #fbfbfb;
   position: absolute;
   top: 0px;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 header .container-fluid {
   height: 156px;
@@ -101,8 +103,8 @@ footer .iconcontainer {
   background-color: rgba(255, 255, 255, 0);
   padding: 0%;
   position: relative;
-  left: -40px;
-  top: -3px;
+  left: -36px;
+  top: 6px;
 }
 .search input {
   border: #5FD2E6 solid 1px;
@@ -417,8 +419,8 @@ footer .iconcontainer {
     background-color: rgba(255, 255, 255, 0);
     padding: 0%;
     position: relative;
-    left: -40px;
-    top: -3px;
+    left: -36px;
+    top: 6px;
   }
   .search input {
     border: #5FD2E6 solid 1px;
@@ -477,23 +479,31 @@ footer .iconcontainer {
     width: 100%;
     height: fit-content;
   }
-  .overlay .overlaytext {
+  .overlaytext {
     padding-top: 4rem;
-    padding-left: 15vw;
     color: white;
   }
-  .overlay .overlaytext h1 {
+  .overlaytext h1 {
     font-size: 55px !important;
+    text-align: center;
   }
-  .overlay .overlaytext h2 {
+  .overlaytext h2 {
     font-size: 25px !important;
     font-style: italic;
     font-weight: 300;
+    text-align: center;
   }
 }
 @media screen and (max-width: 765px) {
+  .navbar-toggler {
+    background-color: #fbfbfb;
+    position: absolute;
+    top: 0px;
+    margin-left: 2rem;
+    margin-bottom: 1rem !important;
+  }
   .hero {
-    height: 60vh;
+    height: 55vh;
   }
   .hero img {
     width: 100%;
@@ -510,6 +520,14 @@ footer .iconcontainer {
   }
   .menu li {
     font-size: 15px !important;
+  }
+  .search button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0%;
+    position: relative;
+    left: -38px !important;
+    top: 8px !important;
   }
   .priceoverlay {
     background: rgb(131, 58, 180);
@@ -540,10 +558,20 @@ footer .iconcontainer {
     width: 100%;
   }
   .search form {
+    padding-left: 1em;
+    padding-right: 1em;
     width: 100%;
   }
   .search form input {
     width: 100%;
+  }
+  .search button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0%;
+    position: relative;
+    left: -50px;
+    top: 8px;
   }
   .priceoverlay {
     background: rgb(131, 58, 180);
@@ -557,6 +585,12 @@ footer .iconcontainer {
     position: absolute;
     top: -200px;
     left: 220px !important;
+  }
+  .menu {
+    margin-top: 1em;
+  }
+  .navbar {
+    margin-top: 0em !important;
   }
 }
 @media screen and (max-width: 400px) {
