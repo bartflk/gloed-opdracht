@@ -6,6 +6,27 @@ h2{
     font-size: 35px;
 }
 header{
+    .navbar{
+    width: 100%!important;
+    height: 40px!important;
+    margin-top: 1.5em!important;
+    a{
+        color: black!important;
+        font-size: 20px!important;
+        font-weight: 600!important;
+    }
+    .navbar-collapse{
+        justify-content: flex-end!important;
+        z-index: 1;
+
+    }
+    .navbar-toggler{
+    background-color: #fbfbfb;
+    position: absolute;
+    top: 0px;
+    
+    }
+    }
    .container-fluid{
         height: 156px;
    }
@@ -64,8 +85,9 @@ footer{
     display: flex;
     flex-direction: row;
     height: 40px;
-    flex-wrap: nowrap;
-    justify-content: flex-end; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
 }
 .search{
     display: flex;
@@ -90,7 +112,7 @@ footer{
         border-radius: 15px;
         padding:  5px 15px 5px 15px;
         height: 40px;
-        width: 320px;
+        width: 20vw;
         
     }
     input::placeholder{
@@ -99,7 +121,7 @@ footer{
 }
 .contact{
     display: flex;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-right: 2em;
     height: auto;
     align-items: center;
@@ -132,10 +154,11 @@ footer{
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-top: 1.5em;
+    width: 100%;
     ul{
         li{
-            padding-left: 2em;
-            padding-right: 3em;
+            padding-left: 1rem;
+            padding-right: 2rem;
             list-style-type: none;
             font-size: 20px;
             a{
@@ -146,10 +169,41 @@ footer{
     }
 }
 
+.overlaytext{
+    padding-top: 8rem;
+    text-align: left;
+    color: white;
+    h1{
+        font-size: 75px!important;
+    }
+    h2{
+       font-size: 35px!important; 
+       font-style: italic!important;
+       font-weight: 300!important;
+    }
+}
+//carusel
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
 .hero{
-    height: 60vh;
+    height: 65vh;
     img{
         width: 100%;
+        height: auto;
     }
     #opacitysvg{
         opacity: 0.9;
@@ -162,22 +216,13 @@ footer{
         position: absolute;
         height: fit-content;
         width: 100%;
-        .overlaytext{
-            padding-top: 10em;
-            color: white;
-            h1{
-                font-size: 75px;
-            }
-            h2{
-               font-size: 35px; 
-            }
-        }
+        height: fit-content;
     }
     .imagecontainer{
-        height: fit-content;
         width: 100%;
         object-fit: cover;
         position: absolute;
+        height: inherit;
     }
 }
 
@@ -195,7 +240,7 @@ footer{
     margin-top: 2em;
     box-shadow: 0px 3px 6px  #0000002a;
     margin-bottom: 2em;
-
+    transition: background-color 0.3s ease;
     .priceoverlay{
         background: rgb(131,58,180);
         background: linear-gradient(180deg, rgba(131,58,180,0) 0%, rgba(28,12,76,1) 100%);
@@ -203,6 +248,11 @@ footer{
         top: -50px;
         z-index: 1;
         height: 50px;
+        svg{
+        position: absolute;
+        top: -200px;
+        left: 180px;
+        }
     }
     .productdesc{
         padding: 0em 2em 0em 2em;
@@ -245,6 +295,16 @@ footer{
         }
     }
 }
+.itemcard:hover{
+    background-color: #1C0C4C;
+    button{
+        background-color: #D4C500;
+    }
+    color: white;
+    h4{
+        color: white;
+    }
+}
 
 .bannerimg{
     margin-top: 5em;
@@ -282,11 +342,121 @@ footer{
 
 //@media responsive queries
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 400px) {
+    .itemcard{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .introtext{
+        h2{
+            color: black;
+            font-size: 17px;
+        }
+        p{
+            color: black;
+            font-size: 12px;
+        }
+    }
+    .bannertext {
+        padding: 3em;
+        h2{
+            font-size: 17px!important;
+        }
+        p{
+            font-size: 12px!important;
+        }
+    }
+}
 
+@media screen and (max-width: 575px) {
+    .itemcard{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .contact {
+            display: none;
+        }
+    .shoppingcart{
+        display: none;
+    }
+    .search{
+        width: 100%;
+        form{
+            width: 100%;
+            input{
+                width: 100%;
+            }
+        }
+    }
+
+}
+@media screen and (max-width: 765px) {
+    .hero{
+        height: 60vh;
+        img{
+            width: 100%;
+            height: 45vh;
+        }
+    }
+.topmenu {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    }
+
+    .menu{
+        li{
+            font-size: 15px!important;
+        }
+    }
 }
 
 @media screen and (max-width: 994px) {
+
+
+    .navbar-collapse{
+        justify-content: flex-end!important;
+        background-color: white!important;
+        z-index: 1;
+        margin-top: 3em;
+    }
+
+    .search{
+        display: flex;
+        form{
+            height: 40px;
+            margin-top: 1em;
+
+        }
+        button{
+            border: none;
+            background-color: rgba(255, 255, 255, 0);
+            padding: 0%;
+            position: relative;
+            left: -40px;
+            top: -3px;
+    
+            svg{
+              
+            }
+        }
+        input{
+            border: #5FD2E6 solid 1px;
+            border-radius: 15px;
+            padding:  5px 15px 5px 15px;
+            height: 40px;
+            min-width: 12rem;
+            
+        }
+        input::placeholder{
+            color: #3B89B2;
+        }
+    }
+
     footer{ 
         .footerlogo{
             padding-bottom: 3em;
@@ -330,7 +500,29 @@ footer{
             margin-right: auto;
         }
     }
+    .overlay{
+        position: absolute;
+        height: fit-content;
+        width: 100%;
+        height: fit-content;
+        .overlaytext{
+            padding-top: 4rem;
+            padding-left: 15vw;
+            color: white;
+            h1{
+                font-size: 55px!important;
+            }
+            h2{
+               font-size: 25px!important; 
+               font-style: italic;
+               font-weight: 300;
+            }
+        }
+    }
 }
+
+
+
 
 @media screen and (max-width: 1200px) {
 
@@ -344,4 +536,32 @@ footer{
             max-width: max-content;
         }
     }
+
+    .hero{
+        height: 60vh;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
 }
+
+@media screen and (max-width: 1300px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1500px) {
+    .hero{
+        height: 60vh;
+        img{
+            width: 100%;
+            height: 50vh;
+        }
+    }
+}
+
+

@@ -21,3 +21,8 @@ Zondag:
 
 Ik ben begonnen met de icons, snel voor elkaar gekregen, nu alles responsive maken 
 @media queries aanghemaakt
+alle dingen responsive gemaakt behalve de menu, menu ben ik nu mee bezig
+header is responsive, ik ben wat bezig geweest met de hero slider, die is af alleen de buttons zijn niet balletjes zoals op de design.
+een burger button toegevoegd voor responsive mobile design, niet echt een design voor gegeven maar ik heb 1 erbij gedaan 
+
+
