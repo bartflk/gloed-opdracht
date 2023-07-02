@@ -5,7 +5,7 @@ Ik ben begonnen met het aanmaken van alle files, toevoegen van scss, bootstrap e
 Ik ga beginnen met de Header en ik ga van boven naar beneden.
 ik heb eerst de opstelling van divs en bootstrap gemaakt voor de header, ik heb position relative gebruikt om de zoek button te mergen met de zoekbalk
 De header duurde de meeste tijd omdat ik ook moest alles opzetten maar tot aan de menu heb ik geen problemen opgelopen
-De winkelkarretje blijft voor nu statish, ik ga het aan het einde met javascript volledig toevoegen
+De winkelkarretje blijft voor nu statisch, ik ga het aan het einde met javascript volledig toevoegen
 Ook de hover effecten zou ik op de laatste moment toevoegen 
 Ik heb voor icon's of dingen met icon's svg's gebruikt omdat het voor dit opdracht (2/3 dagen) tijd budget is ingeschat door mij en ik heb geen tijd om alles zelf maken. 
 Als er tijd over is kan ik alles na gaan en veranderen.
@@ -14,15 +14,21 @@ De eerste pagina had ik op vrijdag af.
 Zaterdag:
 ben ik ziek geworden en kon niet veel doen, 
 heb wel wat op github gecommit en gekeken wat ik nog moet doen 
-maar ik was niet in staat om te werken die dag, zondag probeer ik de hero banner slider,Special item card notificatie, vervolgpagina, 
+maar ik was niet in staat om te werken die dag, zondag probeer ik de hero banner slider, Special item card notificatie, vervolgpagina, 
 hover effecten en responsiveness fixen.
 
 Zondag: 
 
 Ik ben begonnen met de icons, snel voor elkaar gekregen, nu alles responsive maken 
-@media queries aanghemaakt
+@media queries aangemaakt
 alle dingen responsive gemaakt behalve de menu, menu ben ik nu mee bezig
 header is responsive, ik ben wat bezig geweest met de hero slider, die is af alleen de buttons zijn niet balletjes zoals op de design.
 een burger button toegevoegd voor responsive mobile design, niet echt een design voor gegeven maar ik heb 1 erbij gedaan 
+
+Terugblik: 
+
+De enige wat ik tegen kwam als een probleem is tijd, ik kon geen JS implementeren omdat ik zaterdag ziek was geworden. Ik heb wel 
+de rest voor elkaar gekregen dat ik zag op de design, hover effects, header, footer, items, hero slider, responsive design.
+
 
 
