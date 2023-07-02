@@ -83,7 +83,7 @@ footer .iconcontainer {
 .topmenu {
   display: flex;
   flex-direction: row;
-  height: 40px;
+  height: 55px;
   flex-wrap: wrap;
   justify-content: flex-end;
   width: 100%;
@@ -145,7 +145,7 @@ footer .iconcontainer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-top: 1.5em;
+  margin-top: 1.25em;
   width: 100%;
 }
 .menu ul li {
