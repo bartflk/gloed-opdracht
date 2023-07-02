@@ -329,72 +329,76 @@ footer .iconcontainer {
   border: none;
 }
 
-@media screen and (max-width: 400px) {
-  .itemcard {
-    margin-left: 0em;
-    margin-right: 0em;
-  }
-  .introtext h2 {
-    color: black;
-    font-size: 17px;
-  }
-  .introtext p {
-    color: black;
-    font-size: 12px;
-  }
-  .bannertext {
-    padding: 3em;
-  }
-  .bannertext h2 {
-    font-size: 17px !important;
-  }
-  .bannertext p {
-    font-size: 12px !important;
-  }
-}
-@media screen and (max-width: 575px) {
-  .itemcard {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-  .contact {
-    display: none;
-  }
-  .shoppingcart {
-    display: none;
-  }
-  .search {
-    width: 100%;
-  }
-  .search form {
-    width: 100%;
-  }
-  .search form input {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 1500px) {
   .hero {
     height: 60vh;
   }
   .hero img {
     width: 100%;
-    height: 45vh;
+    height: 50vh;
   }
-  .topmenu {
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    justify-content: space-between;
+}
+@media screen and (max-width: 1400px) {
+  .priceoverlay {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgb(28, 12, 76) 100%);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    height: 50px;
+  }
+  .priceoverlay svg {
+    position: absolute;
+    top: -200px;
+    left: 135px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .banneruitgelicht {
     width: 100%;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    height: 100%;
+    background-color: rgba(180, 244, 248, 0.9176470588);
+    border-radius: 30px 0px;
+    position: static;
   }
-  .menu li {
-    font-size: 15px !important;
+  .banneruitgelicht button {
+    max-width: max-content;
+  }
+  .hero {
+    height: 60vh;
+  }
+  .hero img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .priceoverlay {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgb(28, 12, 76) 100%);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    height: 50px;
+  }
+  .priceoverlay svg {
+    position: absolute;
+    top: -200px;
+    left: 100px !important;
   }
 }
 @media screen and (max-width: 994px) {
+  .priceoverlay {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgb(28, 12, 76) 100%);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    height: 50px;
+  }
+  .priceoverlay svg {
+    position: absolute;
+    top: -200px;
+    left: 180px !important;
+  }
   .navbar-collapse {
     justify-content: flex-end !important;
     background-color: white !important;
@@ -487,32 +491,108 @@ footer .iconcontainer {
     font-weight: 300;
   }
 }
-@media screen and (max-width: 1200px) {
-  .banneruitgelicht {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(180, 244, 248, 0.9176470588);
-    border-radius: 30px 0px;
-    position: static;
-  }
-  .banneruitgelicht button {
-    max-width: max-content;
-  }
+@media screen and (max-width: 765px) {
   .hero {
     height: 60vh;
   }
   .hero img {
     width: 100%;
-    object-fit: cover;
+    height: 45vh;
+  }
+  .topmenu {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .menu li {
+    font-size: 15px !important;
+  }
+  .priceoverlay {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgb(28, 12, 76) 100%);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    height: 50px;
+  }
+  .priceoverlay svg {
+    position: absolute;
+    top: -200px;
+    left: 300px !important;
   }
 }
-@media screen and (max-width: 1500px) {
-  .hero {
-    height: 60vh;
+@media screen and (max-width: 575px) {
+  .itemcard {
+    margin-left: 1em;
+    margin-right: 1em;
   }
-  .hero img {
+  .contact {
+    display: none;
+  }
+  .shoppingcart {
+    display: none;
+  }
+  .search {
     width: 100%;
-    height: 50vh;
+  }
+  .search form {
+    width: 100%;
+  }
+  .search form input {
+    width: 100%;
+  }
+  .priceoverlay {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgb(28, 12, 76) 100%);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    height: 50px;
+  }
+  .priceoverlay svg {
+    position: absolute;
+    top: -200px;
+    left: 220px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .itemcard {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .introtext h2 {
+    color: black;
+    font-size: 17px;
+  }
+  .introtext p {
+    color: black;
+    font-size: 12px;
+  }
+  .bannertext {
+    padding: 3em;
+  }
+  .bannertext h2 {
+    font-size: 17px !important;
+  }
+  .bannertext p {
+    font-size: 12px !important;
+  }
+  .priceoverlay {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(180deg, rgba(131, 58, 180, 0) 0%, rgb(28, 12, 76) 100%);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    height: 50px;
+  }
+  .priceoverlay svg {
+    position: absolute;
+    top: -200px;
+    left: 150px !important;
   }
 }
 
