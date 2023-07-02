@@ -1,17 +1,23 @@
+Vrijdag:
 Ik ben begonnen met een normaal project, ik heb besloten om geen react te gebruiken.
 Voor dit opdracht heb ik maar 2/3 dagen voor en react gebruiken zou het project langer laten duren.
-
 Ik ben begonnen met het aanmaken van alle files, toevoegen van scss, bootstrap en uploaden naar github.
-
 Ik ga beginnen met de Header en ik ga van boven naar beneden.
-
 ik heb eerst de opstelling van divs en bootstrap gemaakt voor de header, ik heb position relative gebruikt om de zoek button te mergen met de zoekbalk
-
 De header duurde de meeste tijd omdat ik ook moest alles opzetten maar tot aan de menu heb ik geen problemen opgelopen
-
 De winkelkarretje blijft voor nu statish, ik ga het aan het einde met javascript volledig toevoegen
 Ook de hover effecten zou ik op de laatste moment toevoegen 
-
 Ik heb voor icon's of dingen met icon's svg's gebruikt omdat het voor dit opdracht (2/3 dagen) tijd budget is ingeschat door mij en ik heb geen tijd om alles zelf maken. 
-
 Als er tijd over is kan ik alles na gaan en veranderen.
+De eerste pagina had ik op vrijdag af.
+
+Zaterdag:
+ben ik ziek geworden en kon niet veel doen, 
+heb wel wat op github gecommit en gekeken wat ik nog moet doen 
+maar ik was niet in staat om te werken die dag, zondag probeer ik de hero banner slider,Special item card notificatie, vervolgpagina, 
+hover effecten en responsiveness fixen.
+
+Zondag: 
+
+Ik ben begonnen met de icons, snel voor elkaar gekregen, nu alles responsive maken 
+@media queries aanghemaakt
